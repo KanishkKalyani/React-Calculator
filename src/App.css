@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.outer-container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.display {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+	/* background-image: linear-gradient(green, lightgreen) !important; */
+	border: 1.5px #888 solid;
+	font-size: 40px;
+}
+
+.calc-body {
+	max-width: 400px;
+}
+
+.keypad button {
+	width: 25%;
+	height: 60px;
+	font-size: 25px;
+	font-weight: lighter;
+	background-color: #e0e1e6;
+	color: #888;
+	border: 1.5px #888 solid;
+	cursor: pointer;
+	/* background-image: linear-gradient(#61bbff, #000071); */
+	/* color: white; */
+	font-weight: bold;
+}
+
+button:hover {
+	opacity: 0.6;
+}
+
+.operator {
+	color: #fff !important;
+	background-color: #fe9241 !important;
+}
+
+/* .operator {
+    color: #fff !important;
+    background-image: linear-gradient(red, #fe9241) !important;
+}
+
+.equals {
+    color: #fff !important;
+    background-image: linear-gradient(red, #fe9241) !important;
+} */
