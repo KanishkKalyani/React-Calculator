@@ -1,6 +1,9 @@
 import React from "react";
 
 class Keypad extends React.Component {
+	constructor(props) {
+		super(props);
+	}
 	buttonClicked = e => {
 		this.props.buttonClicked(e.target.name);
 	};

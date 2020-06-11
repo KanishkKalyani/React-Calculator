@@ -4,9 +4,12 @@ import CalcDisplay from "./CalcDisplay.js";
 import Keypad from "./Keypad.js";
 
 class App extends React.Component {
-	state = {
-		disp: "",
-	};
+	constructor() {
+		super();
+		this.state = {
+			disp: "",
+		};
+	}
 
 	buttonClicked = pressed => {
 		if (pressed === "AC") {
