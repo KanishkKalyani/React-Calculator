@@ -12,6 +12,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: linear-gradient(lightgreen, white, lightpink);
 }
 
 .App {
@@ -23,14 +24,14 @@ h1 {
 
 .display {
 	height: 100px;
-	width: 100%;
+	max-width: 400px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	font-weight: bold;
 	background-color: black;
 	color: white;
-	/* background-image: linear-gradient(green, lightgreen) !important; */
+	word-break: break-all;
 	border: 1.5px #888 solid;
 	font-size: 40px;
 }
@@ -48,8 +49,6 @@ h1 {
 	color: #888;
 	border: 1.5px #888 solid;
 	cursor: pointer;
-	/* background-image: linear-gradient(#61bbff, #000071); */
-	/* color: white; */
 	font-weight: bold;
 }
 
@@ -62,12 +61,7 @@ button:hover {
 	background-color: #fe9241 !important;
 }
 
-/* .operator {
-    color: #fff !important;
-    background-image: linear-gradient(red, #fe9241) !important;
-}
-
 .equals {
-    color: #fff !important;
-    background-image: linear-gradient(red, #fe9241) !important;
-} */
+	color: white !important;
+	background-color: #fe4141 !important;
+}
